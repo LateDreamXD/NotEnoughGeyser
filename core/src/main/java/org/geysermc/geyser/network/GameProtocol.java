@@ -63,7 +63,7 @@ import org.cloudburstmc.protocol.bedrock.codec.v582.Bedrock_v582;
 import org.cloudburstmc.protocol.bedrock.codec.v589.Bedrock_v589;
 import org.cloudburstmc.protocol.bedrock.codec.v594.Bedrock_v594;
 import org.cloudburstmc.protocol.bedrock.codec.v618.Bedrock_v618;
-import org.cloudburstmc.protocol.bedrock.codec.v621.Bedrock_v621;
+import org.cloudburstmc.protocol.bedrock.codec.v622.Bedrock_v622;
 import org.cloudburstmc.protocol.bedrock.codec.v630.Bedrock_v630;
 import org.cloudburstmc.protocol.bedrock.codec.v649.Bedrock_v649;
 import org.cloudburstmc.protocol.bedrock.codec.v662.Bedrock_v662;
@@ -183,7 +183,7 @@ public final class GameProtocol {
             .minecraftVersion("1.20.10 - 1.20.15").build()));
         SUPPORTED_BEDROCK_CODECS.add(CodecProcessor.processCodec(Bedrock_v618.CODEC.toBuilder()
             .minecraftVersion("1.20.30 - 1.20.32").build()));
-        SUPPORTED_BEDROCK_CODECS.add(CodecProcessor.processCodec(Bedrock_v621.CODEC.toBuilder()
+        SUPPORTED_BEDROCK_CODECS.add(CodecProcessor.processCodec(Bedrock_v622.CODEC.toBuilder()
             .minecraftVersion("1.20.40/1.20.41").build()));
         SUPPORTED_BEDROCK_CODECS.add(CodecProcessor.processCodec(Bedrock_v630.CODEC.toBuilder()
             .minecraftVersion("1.20.50/1.20.51").build()));
