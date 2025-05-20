@@ -9,11 +9,11 @@ tasks {
         filesMatching(listOf("plugin.yml", "bungee.yml", "velocity-plugin.json", "fabric.mod.json", "viaproxy.yml", "META-INF/neoforge.mods.toml")) {
             expand(
                 "id" to "geyser",
-                "name" to "Geyser",
+                "name" to "NotEnoughGeyser",
                 "version" to project.version,
                 "description" to project.description,
-                "url" to "https://geysermc.org",
-                "author" to "GeyserMC"
+                "url" to "https://github.com/LateDreamXD/NotEnoughGeyser",
+                "author" to "LateDream & GeyserMC"
             )
         }
     }
